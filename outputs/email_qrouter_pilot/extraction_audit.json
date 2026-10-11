@@ -1,0 +1,28 @@
+{
+  "dataset": "SNAP email-Eu-core-temporal",
+  "source_url": "https://snap.stanford.edu/data/email-Eu-core-temporal.html",
+  "raw_events": 332334,
+  "nodes": 1005,
+  "active_days": 101,
+  "earliest_episode_day": 90,
+  "last_episode_day": 190,
+  "candidate_policy": "all previously observed members except sender",
+  "label_policy": "first email recipient per sender per day",
+  "possible_sender_days": 15197,
+  "eligible_sender_days": 15052,
+  "episodes": 807,
+  "conditions": [
+    "complete",
+    "query_half",
+    "history_half",
+    "joint_half"
+  ],
+  "query_window_days": 7,
+  "graph_window_days": [
+    8,
+    90
+  ],
+  "query_half_mask": "fixed seeded independent event retention",
+  "history_half_mask": "fixed seeded independent event retention",
+  "sampled_sources_per_day": 8
+}

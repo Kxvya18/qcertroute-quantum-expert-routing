@@ -1,0 +1,48 @@
+{
+  "decision": "GO_QUANTUM_LIMITS_STUDY",
+  "primary_claim": "A validation-selected quantum router learns the telemetry-to-topology regime transition and remains finite-shot stable; matched classical, parity, and reservoir controls determine whether this constitutes an advantage or a documented quantum limitation.",
+  "checks": {
+    "gate_not_collapsed": true,
+    "correct_regime_ordering": false,
+    "competitive_with_best_expert": true,
+    "noninferior_to_classical": false,
+    "quantum_context_dependency": true,
+    "parity_observable_dependency": false,
+    "finite_shot_stability": true
+  },
+  "conditions": [
+    "complete",
+    "random50",
+    "hub50",
+    "auth_only",
+    "dns_only"
+  ],
+  "quantum_model": "quantum_moe_selected",
+  "equal_weight_mrr": {
+    "quantum": 0.4151681479383898,
+    "temporal": 0.30062008384461736,
+    "graph": 0.4056191031191031,
+    "classical": 0.42406596391224705
+  },
+  "gate_by_condition": {
+    "complete": 0.5868151807785034,
+    "random50": 0.7803902077674866,
+    "hub50": 0.9695770347118378,
+    "auth_only": 0.7442811900377273,
+    "dns_only": 0.6745067489147186
+  },
+  "gate_range": 0.3827618539333344,
+  "regime_specialization": 0.14260981172323228,
+  "regime_alignment_spearman": 0.8999999999999998,
+  "graph_advantage_by_condition": {
+    "complete": -0.1532895019027094,
+    "random50": 0.3373326536786804,
+    "hub50": 0.4004281244156721,
+    "auth_only": -0.1337149784601871,
+    "dns_only": 0.0742387986409726
+  },
+  "quantum_context_gain": 0.005037981640109324,
+  "parity_observable_gain": -0.0010673426562259891,
+  "shot_256_absolute_drift": 0.0004285714285714448,
+  "episodes_per_condition": 50
+}

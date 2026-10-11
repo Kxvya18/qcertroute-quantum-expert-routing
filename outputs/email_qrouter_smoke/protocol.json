@@ -1,0 +1,20 @@
+{
+  "dataset": "SNAP email-Eu-core-temporal",
+  "episodes": 3503,
+  "split_days": [
+    354,
+    444
+  ],
+  "split_episodes": {
+    "train": 2106,
+    "validation": 700,
+    "test": 697
+  },
+  "fixed_mix_weight": 0.75,
+  "seeds": 1,
+  "epochs_cap": 20,
+  "batch_size": 512,
+  "optimizer": "Adam",
+  "learning_rate": 0.012,
+  "validation_criterion": "minimum negative log likelihood with patience 12"
+}

@@ -1,0 +1,19 @@
+{
+  "test_episodes": 697,
+  "decisions": 2788,
+  "confidence": 0.95,
+  "looks": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "average_shots": 254.84074605451937,
+  "median_shots": 128.0,
+  "early_stop_fraction": 0.5964849354375896,
+  "top10_match_exact": 0.975609756097561,
+  "fixed512_match_exact": 0.975609756097561,
+  "mean_absolute_gate_error": 0.017445866342165404
+}

@@ -1,0 +1,22 @@
+{
+  "auth_lines": 3242751,
+  "dns_lines": 25516,
+  "auth_max_time": 43199,
+  "dns_max_time": 43199,
+  "bucket_seconds": 600,
+  "max_seconds": 43200,
+  "candidate_cap": 400,
+  "episodes_per_bucket": 8,
+  "episodes": 504,
+  "potential_labels": 202940,
+  "candidate_retained_labels": 200140,
+  "candidate_label_recall": 0.9862028185670642,
+  "unique_sources": 387,
+  "unique_targets": 27,
+  "top_target_fraction": 0.16468253968253968,
+  "top_five_target_fraction": 0.5793650793650794,
+  "first_timestamp": 5400,
+  "last_timestamp": 42600,
+  "extraction_seconds": 13.660595250000142,
+  "threads": 2
+}

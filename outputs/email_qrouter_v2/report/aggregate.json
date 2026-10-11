@@ -1,0 +1,30 @@
+{
+  "mean_shots": {
+    "mean_across_model_seeds": 202.82735533237687,
+    "min_model_seed": 172.61979913916787,
+    "max_model_seed": 226.48493543758968
+  },
+  "savings_vs_fixed512_percent": {
+    "mean_across_model_seeds": 60.385282161645144,
+    "min_model_seed": 55.76466104734577,
+    "max_model_seed": 66.28519548063127
+  },
+  "shots_saved_vs_observable_bound": {
+    "mean_across_model_seeds": 39.61932089909134,
+    "min_model_seed": 28.321377331420372,
+    "max_model_seed": 60.740315638450504
+  },
+  "certified_fraction": {
+    "mean_across_model_seeds": 0.75298900047824,
+    "min_model_seed": 0.7191535150645624,
+    "max_model_seed": 0.7955523672883787
+  },
+  "certification_gain_percentage_points": {
+    "mean_across_model_seeds": 6.133428981348637,
+    "min_model_seed": 4.196556671449068,
+    "max_model_seed": 9.72022955523673
+  },
+  "independent_test_days": 88,
+  "paired_test_decisions_per_model": 2788,
+  "bootstrap_note": "Percentile intervals resample days within each model seed. Three model seeds are summarized as a range, not independent test datasets."
+}

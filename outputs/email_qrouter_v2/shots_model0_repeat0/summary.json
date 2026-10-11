@@ -1,0 +1,56 @@
+{
+  "test_episodes": 697,
+  "decisions": 2788,
+  "model_seed": 0,
+  "shot_seed": 4909,
+  "confidence": 0.95,
+  "looks": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "average_shots": 226.48493543758968,
+  "median_shots": 128.0,
+  "zero_shot_fraction": 0.0014347202295552368,
+  "certified_fraction": 0.7191535150645624,
+  "certified_top10_match_exact": 1.0,
+  "certified_hit10": 0.7586034912718205,
+  "exact_hit10_all": 0.733142037302726,
+  "forced_top10_match_exact": 0.975609756097561,
+  "fixed512_match_exact": 0.975609756097561,
+  "observable_bound_average_shots": 254.80631276901005,
+  "observable_bound_certified_fraction": 0.6771879483500718,
+  "fixed_budget_match_exact": {
+    "16": 0.9035150645624104,
+    "32": 0.930416068866571,
+    "64": 0.9465566714490674,
+    "128": 0.9609038737446198,
+    "256": 0.9709469153515065,
+    "512": 0.975609756097561
+  },
+  "by_condition": {
+    "complete": {
+      "average_shots": 232.88378766140602,
+      "certified_fraction": 0.7087517934002869,
+      "zero_shot_fraction": 0.0014347202295552368
+    },
+    "query_half": {
+      "average_shots": 194.6628407460545,
+      "certified_fraction": 0.7647058823529411,
+      "zero_shot_fraction": 0.0014347202295552368
+    },
+    "history_half": {
+      "average_shots": 258.0430416068867,
+      "certified_fraction": 0.6642754662840746,
+      "zero_shot_fraction": 0.0014347202295552368
+    },
+    "joint_half": {
+      "average_shots": 220.35007173601147,
+      "certified_fraction": 0.7388809182209469,
+      "zero_shot_fraction": 0.0014347202295552368
+    }
+  }
+}

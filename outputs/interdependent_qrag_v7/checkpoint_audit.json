@@ -1,0 +1,33 @@
+{
+  "decision": "STOP",
+  "checks": {
+    "gate_not_collapsed": true,
+    "correct_regime_ordering": true,
+    "competitive_with_best_expert": true,
+    "noninferior_to_classical": false
+  },
+  "conditions": [
+    "complete",
+    "random50",
+    "hub50",
+    "auth_only",
+    "dns_only"
+  ],
+  "quantum_model": "quantum_moe_selected",
+  "equal_weight_mrr": {
+    "quantum": 0.4151681479383898,
+    "temporal": 0.30062008384461736,
+    "graph": 0.4056191031191031,
+    "classical": 0.42406596391224705
+  },
+  "gate_by_condition": {
+    "complete": 0.5868151807785034,
+    "random50": 0.7803902077674866,
+    "hub50": 0.9695770347118378,
+    "auth_only": 0.7442811900377273,
+    "dns_only": 0.6745067489147186
+  },
+  "gate_range": 0.3827618539333344,
+  "regime_specialization": 0.20537361457943926,
+  "episodes_per_condition": 50
+}

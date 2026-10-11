@@ -1,0 +1,89 @@
+{
+  "decision": "GO_QUANTUM_LIMITS_STUDY",
+  "primary_claim": "A validation-selected quantum router learns the telemetry-to-topology regime transition and remains finite-shot stable; matched classical, parity, and reservoir controls determine whether this constitutes an advantage or a documented quantum limitation.",
+  "checks": {
+    "gate_not_collapsed": true,
+    "correct_regime_ordering": true,
+    "competitive_with_best_expert": true,
+    "noninferior_to_classical": true,
+    "quantum_context_dependency": true,
+    "parity_observable_dependency": false,
+    "finite_shot_stability": true
+  },
+  "conditions": [
+    "complete",
+    "random50",
+    "hub50",
+    "auth_only",
+    "dns_only"
+  ],
+  "quantum_model": "quantum_moe_selected",
+  "equal_weight_mrr": {
+    "quantum": 0.4793898028341288,
+    "temporal": 0.3003755200998805,
+    "graph": 0.47863103065791235,
+    "classical": 0.48155861814220435
+  },
+  "gate_by_condition": {
+    "complete": 0.6527088187138239,
+    "random50": 0.8922431982888116,
+    "hub50": 0.7209667128324508,
+    "auth_only": 0.6345924935738245,
+    "dns_only": 0.8272411938508352
+  },
+  "gate_range": 0.2576507047149871,
+  "regime_specialization": 0.16983304551354161,
+  "regime_alignment_spearman": 0.8999999999999998,
+  "graph_advantage_by_condition": {
+    "complete": -0.09547881467919761,
+    "random50": 0.45303154429596576,
+    "hub50": 0.14557792354483412,
+    "auth_only": -0.06008952468128703,
+    "dns_only": 0.44823642430984384
+  },
+  "quantum_context_gain": 0.032662186448767616,
+  "quantum_context_auc_gain": 0.05740284619594971,
+  "parity_observable_gain": 0.0014213887326607333,
+  "quantum_context_mrr_gain": -0.0010522378141149535,
+  "parity_observable_mrr_gain": -0.00020908256658030977,
+  "routing_metrics": {
+    "quantum_moe_selected": {
+      "log_loss": 0.5041986944423318,
+      "brier": 0.16915624718680208,
+      "auc": 0.774655540819334,
+      "non_tied": 1938
+    },
+    "classical_moe": {
+      "log_loss": 0.41979396281645515,
+      "brier": 0.13789329031700462,
+      "auc": 0.8601743084501705,
+      "non_tied": 1938
+    },
+    "quantum_no_graph_context": {
+      "log_loss": 0.5241212485960648,
+      "brier": 0.1784544908834475,
+      "auc": 0.731946154898741,
+      "non_tied": 1938
+    },
+    "quantum_no_temporal_context": {
+      "log_loss": 0.5822420288354847,
+      "brier": 0.19562660480145933,
+      "auc": 0.5964597543261337,
+      "non_tied": 1938
+    },
+    "quantum_no_cross_expert_context": {
+      "log_loss": 0.5368608808910994,
+      "brier": 0.1822061258644444,
+      "auc": 0.7172526946233843,
+      "non_tied": 1938
+    },
+    "quantum_moe_local_only": {
+      "log_loss": 0.5056200831749925,
+      "brier": 0.1705219024685028,
+      "auc": 0.771655667129805,
+      "non_tied": 1938
+    }
+  },
+  "shot_256_absolute_drift": 6.865071092765351e-06,
+  "episodes_per_condition": 150
+}

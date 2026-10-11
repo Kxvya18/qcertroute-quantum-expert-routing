@@ -1,0 +1,39 @@
+{
+  "test_episodes": 697,
+  "decisions": 2788,
+  "model_seed": 1,
+  "shot_seed": 4910,
+  "confidence": 0.95,
+  "looks": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "average_shots": 233.38307030129124,
+  "median_shots": 128.0,
+  "early_stop_fraction": 0.6312769010043041,
+  "top10_match_exact": 0.9824246771879483,
+  "fixed512_match_exact": 0.9824246771879483,
+  "mean_absolute_gate_error": 0.015175890515165337,
+  "by_condition": {
+    "complete": {
+      "average_shots": 239.19655667144906,
+      "top10_match_exact": 0.9913916786226685
+    },
+    "query_half": {
+      "average_shots": 196.77474892395983,
+      "top10_match_exact": 0.9870875179340028
+    },
+    "history_half": {
+      "average_shots": 273.23959827833573,
+      "top10_match_exact": 0.9727403156384505
+    },
+    "joint_half": {
+      "average_shots": 224.32137733142036,
+      "top10_match_exact": 0.9784791965566715
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "decision": "GO",
+  "checks": {
+    "gate_not_collapsed": true,
+    "correct_regime_ordering": true,
+    "competitive_with_best_expert": true,
+    "noninferior_to_classical": true,
+    "quantum_context_dependency": true,
+    "parity_observable_dependency": true,
+    "finite_shot_stability": true
+  },
+  "conditions": [
+    "complete",
+    "random50",
+    "hub50",
+    "auth_only",
+    "dns_only"
+  ],
+  "quantum_model": "quantum_moe_selected",
+  "equal_weight_mrr": {
+    "quantum": 0.42159135069143205,
+    "temporal": 0.20340534816051567,
+    "graph": 0.4056191031191031,
+    "classical": 0.4217150472846939
+  },
+  "gate_by_condition": {
+    "complete": 0.5723008280992508,
+    "random50": 0.9022107148170471,
+    "hub50": 0.9692778420448304,
+    "auth_only": 0.805015942454338,
+    "dns_only": 0.7185902491211891
+  },
+  "gate_range": 0.3969770139455796,
+  "regime_specialization": 0.2764728590101003,
+  "regime_alignment_spearman": 0.9999999999999999,
+  "graph_advantage_by_condition": {
+    "complete": -0.15306056417377167,
+    "random50": 0.39547332967658055,
+    "hub50": 0.40043252706256144,
+    "auth_only": 0.2726666001779853,
+    "dns_only": 0.09555688204958152
+  },
+  "quantum_context_gain": 0.01571363636363632,
+  "parity_observable_gain": 0.005738208168642955,
+  "shot_256_absolute_drift": 0.0016079365079365582,
+  "episodes_per_condition": 50
+}

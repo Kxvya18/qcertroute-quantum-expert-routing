@@ -1,0 +1,319 @@
+{
+  "model": "Q-RAG-MoE",
+  "quantum_parameters": 16,
+  "classical_router_parameters": 17,
+  "qubits": 3,
+  "circuit_depth": 2,
+  "shots": 256,
+  "quantum_hardware_used": false,
+  "statevector_simulation": true,
+  "controlled_test_episodes": 30,
+  "lanl_test_episodes": 20,
+  "seeds": [
+    7,
+    19,
+    42
+  ],
+  "claims": [
+    {
+      "dataset": "controlled",
+      "condition": "complete",
+      "comparison": "Q-T",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "dataset": "controlled",
+      "condition": "complete",
+      "comparison": "Q-C",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "dataset": "controlled",
+      "condition": "complete",
+      "comparison": "S-Q",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "dataset": "controlled",
+      "condition": "auth_only",
+      "comparison": "Q-T",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": -0.0064427476558041605,
+      "ci_low": -0.12411880038546552,
+      "ci_high": 0.08292139131853223
+    },
+    {
+      "dataset": "controlled",
+      "condition": "auth_only",
+      "comparison": "Q-C",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.03118461371396183,
+      "ci_low": -0.004441685065091317,
+      "ci_high": 0.08306636049222971
+    },
+    {
+      "dataset": "controlled",
+      "condition": "auth_only",
+      "comparison": "S-Q",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.00046383055255338465,
+      "ci_low": -1.3058465259446605e-05,
+      "ci_high": 0.002218957239005227
+    },
+    {
+      "dataset": "controlled",
+      "condition": "dns_only",
+      "comparison": "Q-T",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": -0.1616461344881541,
+      "ci_low": -0.3597433042888833,
+      "ci_high": 0.0
+    },
+    {
+      "dataset": "controlled",
+      "condition": "dns_only",
+      "comparison": "Q-C",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.06289826285689563,
+      "ci_low": 0.005477785140903481,
+      "ci_high": 0.14752331748504777
+    },
+    {
+      "dataset": "controlled",
+      "condition": "dns_only",
+      "comparison": "S-Q",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.00015810120823670998,
+      "ci_low": -0.0003246753246753234,
+      "ci_high": 0.0007187959084978068
+    },
+    {
+      "dataset": "controlled",
+      "condition": "random50",
+      "comparison": "Q-T",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.010936158904485228,
+      "ci_low": 0.0,
+      "ci_high": 0.06273747027106663
+    },
+    {
+      "dataset": "controlled",
+      "condition": "random50",
+      "comparison": "Q-C",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": -1.069069455811666e-05,
+      "ci_low": -7.851625498683998e-05,
+      "ci_high": 3.502039027337669e-05
+    },
+    {
+      "dataset": "controlled",
+      "condition": "random50",
+      "comparison": "S-Q",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "dataset": "controlled",
+      "condition": "hub50",
+      "comparison": "Q-T",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.054641484177949215,
+      "ci_low": -0.1060875396074332,
+      "ci_high": 0.21594225416420712
+    },
+    {
+      "dataset": "controlled",
+      "condition": "hub50",
+      "comparison": "Q-C",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": 0.005364377310532792,
+      "ci_low": -0.002014613623256132,
+      "ci_high": 0.031248819653061824
+    },
+    {
+      "dataset": "controlled",
+      "condition": "hub50",
+      "comparison": "S-Q",
+      "episodes": 30,
+      "seeds": 3,
+      "delta_mrr": -0.00024691358024691456,
+      "ci_low": -0.0017283950617284006,
+      "ci_high": 0.0004938271604938266
+    },
+    {
+      "dataset": "LANL",
+      "condition": "complete",
+      "comparison": "Q-T",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -0.004648960257505816,
+      "ci_low": -0.038848472992252206,
+      "ci_high": 0.01685858148481118
+    },
+    {
+      "dataset": "LANL",
+      "condition": "complete",
+      "comparison": "Q-C",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": 0.00829993115445012,
+      "ci_low": -9.017007229406899e-05,
+      "ci_high": 0.049941650365523435
+    },
+    {
+      "dataset": "LANL",
+      "condition": "complete",
+      "comparison": "S-Q",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -5.3763395984711994e-05,
+      "ci_low": -0.0002804263074718841,
+      "ci_high": 7.924876656019034e-06
+    },
+    {
+      "dataset": "LANL",
+      "condition": "auth_only",
+      "comparison": "Q-T",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": 0.0025396381405688095,
+      "ci_low": -0.05925576533883219,
+      "ci_high": 0.042935702730986354
+    },
+    {
+      "dataset": "LANL",
+      "condition": "auth_only",
+      "comparison": "Q-C",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -1.1162249885566576e-06,
+      "ci_low": -8.320256633047592e-06,
+      "ci_high": 2.246535329572853e-06
+    },
+    {
+      "dataset": "LANL",
+      "condition": "auth_only",
+      "comparison": "S-Q",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -1.1219035201666255e-07,
+      "ci_low": -1.34276623321324e-06,
+      "ci_high": 1.3421404486310129e-06
+    },
+    {
+      "dataset": "LANL",
+      "condition": "dns_only",
+      "comparison": "Q-T",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": 0.022241543006137503,
+      "ci_low": 0.0011245520403102207,
+      "ci_high": 0.05247625331785746
+    },
+    {
+      "dataset": "LANL",
+      "condition": "dns_only",
+      "comparison": "Q-C",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -9.097574866654673e-05,
+      "ci_low": -0.000548446329538047,
+      "ci_high": 1.7182276918605735e-06
+    },
+    {
+      "dataset": "LANL",
+      "condition": "dns_only",
+      "comparison": "S-Q",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -3.4535541938334564e-08,
+      "ci_low": -2.4789566446133547e-07,
+      "ci_high": 5.821365397399619e-08
+    },
+    {
+      "dataset": "LANL",
+      "condition": "random50",
+      "comparison": "Q-T",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": 4.259845229027692e-05,
+      "ci_low": -4.0953503213581055e-06,
+      "ci_high": 0.00022520201609327662
+    },
+    {
+      "dataset": "LANL",
+      "condition": "random50",
+      "comparison": "Q-C",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -6.427084231868853e-07,
+      "ci_low": -3.2457084184011755e-06,
+      "ci_high": 4.759721566474396e-08
+    },
+    {
+      "dataset": "LANL",
+      "condition": "random50",
+      "comparison": "S-Q",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -2.2402152859342993e-08,
+      "ci_low": -8.15986936625561e-08,
+      "ci_high": 4.215745319736876e-10
+    },
+    {
+      "dataset": "LANL",
+      "condition": "hub50",
+      "comparison": "Q-T",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": 0.008282679476927944,
+      "ci_low": -0.0023949119738042052,
+      "ci_high": 0.030133599829442928
+    },
+    {
+      "dataset": "LANL",
+      "condition": "hub50",
+      "comparison": "Q-C",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": -4.826673982708005e-06,
+      "ci_low": -2.1138669981821785e-05,
+      "ci_high": 1.6021286397941841e-06
+    },
+    {
+      "dataset": "LANL",
+      "condition": "hub50",
+      "comparison": "S-Q",
+      "episodes": 20,
+      "seeds": 3,
+      "delta_mrr": 1.253310783959788e-06,
+      "ci_low": -2.871064642994601e-08,
+      "ci_high": 5.314818616120045e-06
+    }
+  ]
+}

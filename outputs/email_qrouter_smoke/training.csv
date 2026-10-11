@@ -1,0 +1,3 @@
+model,seed,epoch,validation_nll,parameters
+quantum,0,15,3.197364330291748,25
+classical,0,15,3.1781814098358154,23
