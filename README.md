@@ -1,6 +1,6 @@
 # QCertRoute: Shot-Adaptive Quantum Expert Routing with Certified Top-Ten Decisions on Temporal Networks
 
-**Kavya Kalavala and Mahadevi S**, Manipal Institute of Technology Bengaluru (IEEE conference manuscript).
+**Kavya Kalavala**, Manipal Institute of Technology Bengaluru (IEEE conference manuscript).
 
 Finite quantum measurements need not estimate every observable precisely to keep an ordered shortlist correct.
 QCertRoute routes between experts on temporal communication networks with a shallow variational circuit that fuses a
